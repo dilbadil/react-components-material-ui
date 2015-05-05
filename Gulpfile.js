@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var less = require('gulp-less');
 var path = require('path');
 
+// Less task
 gulp.task('less', function() {
     return gulp.src('./less/**/*.less')
         .pipe(less({
@@ -10,4 +11,10 @@ gulp.task('less', function() {
         .pipe(gulp.dest('./css'))
 });
 
-gulp.task("default", ['less']);
+// Watcher
+gulp.task('watch', function(){
+    gulp.watch('./less/**/*.less', ['less']);
+});
+
+// Default task
+gulp.task("default", ['less', 'watch']);
