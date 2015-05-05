@@ -1,0 +1,135 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'gulp-less' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json react-components-material-ui@1.0.0 No description
+6 warn package.json react-components-material-ui@1.0.0 No repository field.
+7 warn package.json react-components-material-ui@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp-less', null ]
+10 verbose cache add name=undefined spec="gulp-less" args=["gulp-less",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-less',
+11 verbose parsed url   path: 'gulp-less',
+11 verbose parsed url   href: 'gulp-less' }
+12 silly lockFile c3a282a6-gulp-less gulp-less
+13 verbose lock gulp-less /home/abd/.npm/c3a282a6-gulp-less.lock
+14 silly lockFile c3a282a6-gulp-less gulp-less
+15 silly lockFile c3a282a6-gulp-less gulp-less
+16 verbose addNamed [ 'gulp-less', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile d85f802e-gulp-less gulp-less@
+19 verbose lock gulp-less@ /home/abd/.npm/d85f802e-gulp-less.lock
+20 silly addNameRange { name: 'gulp-less', range: '*', hasData: false }
+21 verbose request where is /gulp-less
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id d61b2d3efe5c2220
+24 verbose url raw /gulp-less
+25 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-less' ]
+26 verbose url resolved https://registry.npmjs.org/gulp-less
+27 verbose request where is https://registry.npmjs.org/gulp-less
+28 info trying registry request attempt 1 at 07:00:27
+29 verbose etag "99OXPEW0PHFNB61WRB4O4QLGK"
+30 http GET https://registry.npmjs.org/gulp-less
+31 http 200 https://registry.npmjs.org/gulp-less
+32 silly registry.get cb [ 200,
+32 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 silly registry.get     etag: '"8AEVDL8VDWL600L31NJFPKPW6"',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'cache-control': 'max-age=60',
+32 silly registry.get     'content-length': '50810',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     date: 'Tue, 05 May 2015 00:00:28 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '0',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1430784027.975360,VS0,VE808',
+32 silly registry.get     vary: 'Accept' } ]
+33 silly addNameRange number 2 { name: 'gulp-less', range: '*', hasData: true }
+34 silly addNameRange versions [ 'gulp-less',
+34 silly addNameRange   [ '0.0.0',
+34 silly addNameRange     '0.0.1',
+34 silly addNameRange     '0.0.2',
+34 silly addNameRange     '0.0.3',
+34 silly addNameRange     '1.0.1',
+34 silly addNameRange     '1.0.0',
+34 silly addNameRange     '1.0.2',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.1.1',
+34 silly addNameRange     '1.1.3',
+34 silly addNameRange     '1.1.4',
+34 silly addNameRange     '1.1.5',
+34 silly addNameRange     '1.1.6',
+34 silly addNameRange     '1.1.7',
+34 silly addNameRange     '1.1.8',
+34 silly addNameRange     '1.1.10',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.2.1',
+34 silly addNameRange     '1.2.2',
+34 silly addNameRange     '1.2.3',
+34 silly addNameRange     '1.2.4',
+34 silly addNameRange     '1.3.0',
+34 silly addNameRange     '1.3.1',
+34 silly addNameRange     '1.3.2',
+34 silly addNameRange     '1.3.3',
+34 silly addNameRange     '1.3.4',
+34 silly addNameRange     '1.3.5',
+34 silly addNameRange     '1.3.6',
+34 silly addNameRange     '1.3.7',
+34 silly addNameRange     '1.3.8',
+34 silly addNameRange     '1.3.9',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '2.0.1',
+34 silly addNameRange     '2.0.2',
+34 silly addNameRange     '2.0.3',
+34 silly addNameRange     '3.0.0',
+34 silly addNameRange     '3.0.1',
+34 silly addNameRange     '3.0.2',
+34 silly addNameRange     '3.0.3' ] ]
+35 verbose addNamed [ 'gulp-less', '3.0.3' ]
+36 verbose addNamed [ '3.0.3', '3.0.3' ]
+37 silly lockFile 03003a96-gulp-less-3-0-3 gulp-less@3.0.3
+38 verbose lock gulp-less@3.0.3 /home/abd/.npm/03003a96-gulp-less-3-0-3.lock
+39 silly lockFile 0afbd54f-rg-gulp-less-gulp-less-3-0-3-tgz https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz
+40 verbose lock https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz /home/abd/.npm/0afbd54f-rg-gulp-less-gulp-less-3-0-3-tgz.lock
+41 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz',
+41 verbose addRemoteTarball   '15ec6c49dc7a42d7558dc0e95b622d36dfc94e9f' ]
+42 info retry fetch attempt 1 at 07:00:28
+43 verbose fetch to= /tmp/npm-7358-uz_NVkES/registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz
+44 http GET https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz
+45 http 200 https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz
+46 silly lockFile 0afbd54f-rg-gulp-less-gulp-less-3-0-3-tgz https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz
+47 silly lockFile 0afbd54f-rg-gulp-less-gulp-less-3-0-3-tgz https://registry.npmjs.org/gulp-less/-/gulp-less-3.0.3.tgz
+48 silly lockFile 03003a96-gulp-less-3-0-3 gulp-less@3.0.3
+49 silly lockFile 03003a96-gulp-less-3-0-3 gulp-less@3.0.3
+50 silly lockFile d85f802e-gulp-less gulp-less@
+51 silly lockFile d85f802e-gulp-less gulp-less@
+52 error Error: EACCES, mkdir '/home/abd/.npm/gulp-less/3.0.3'
+52 error  { [Error: EACCES, mkdir '/home/abd/.npm/gulp-less/3.0.3']
+52 error   errno: 3,
+52 error   code: 'EACCES',
+52 error   path: '/home/abd/.npm/gulp-less/3.0.3',
+52 error   parent: 'react-components-material-ui' }
+53 error Please try running this command again as root/Administrator.
+54 error System Linux 3.13.0-49-generic
+55 error command "/usr/bin/node" "/usr/bin/npm" "install" "gulp-less"
+56 error cwd /home/abd/Code/learning/react/react-components-material-ui
+57 error node -v v0.10.37
+58 error npm -v 1.4.28
+59 error path /home/abd/.npm/gulp-less/3.0.3
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/home/abd/.npm/gulp-less/3.0.3'
+63 verbose exit [ 3, true ]
