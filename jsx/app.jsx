@@ -4,6 +4,7 @@ var ngreact = require('ngreact');
 var mui = require('material-ui');
 var RaisedButton = mui.RaisedButton; 
 var MyAwesomeReactComponent;
+var DateComponent = require('./components/buttons/DatePicker');
 
 MyAwesomeReactComponent = React.createClass({
 
