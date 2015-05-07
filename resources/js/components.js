@@ -1,3 +1,5 @@
+var mui = require('material-ui');
+var React = require('react');
 var DatePicker = mui.DatePicker;
 var DateComponent;
 
@@ -11,10 +13,12 @@ DateComponent = React.createClass({
 
 });
 
-module.exports = {
-    DateComponent: DateComponent
+module.exports = function() {
+    return DateComponent;
 };
 
+var mui = require('material-ui');
+var React = require('react');
 var RaisedButton = mui.RaisedButton;
 var PrimaryButton;
 
@@ -28,6 +32,4 @@ PrimaryButton = React.createClass({
 
 });
 
-module.exports = {
-    PrimaryButton: PrimaryButton
-}
+export default PrimaryButton;

@@ -5,24 +5,25 @@ var path = require('path');
 
 // Less task
 gulp.task('less', function() {
-    return gulp.src('./less/**/*.less')
-        .pipe(less({
-            paths: [path.join(__dirname, 'less', 'includes')]
-        }))
-        .pipe(gulp.dest('./css'))
+    return gulp.src('./resources/less/**/*.less')
+        // .pipe(less({
+        //     paths: [path.join(__dirname, 'resources/less', 'includes')]
+        // }))
+        .pipe(less())
+        .pipe(gulp.dest('./public/css'))
 });
 
 // Components task
 gulp.task('components', function() {
-    return gulp.src('./jsx/components/**/*.jsx')
-        .pipe(concat('components.jsx'))
-        .pipe(gulp.dest('./jsx/'))
+    return gulp.src('./resources/js/components/**/*.js')
+        .pipe(concat('components.js'))
+        .pipe(gulp.dest('./resources/js/'))
 });
 
 // Watcher
 gulp.task('watch', function(){
-    gulp.watch('./less/**/*.less', ['less']);
-    gulp.watch('./jsx/components/**/*.jsx', ['components']);
+    gulp.watch('.resources/less/**/*.less', ['less']);
+    gulp.watch('.resources/js/components/**/*.js', ['components']);
 });
 
 // Default task

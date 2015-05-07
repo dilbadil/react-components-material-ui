@@ -6,4 +6,4 @@ Run the following command:
 
 1. npm install
 2. gulp
-3. browserify -t reactify jsx/app.jsx -o js/app.js
+3. browserify -t reactify resources/js/app.js -o public/js/app.js
